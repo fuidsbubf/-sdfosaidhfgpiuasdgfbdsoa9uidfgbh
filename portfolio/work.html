@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cpu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./work.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="grain-overlay"></div>
+    
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">cpu</div>
+            <nav class="nav">
+                <a href="./index.html" class="nav-item">home</a>
+                <a href="./work.html" class="nav-item">work</a>
+                <a href="./about.html" class="nav-item active">about</a>
+                <a href="#contact" class="nav-item">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero-work">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text">my work</span>
+                </h1>
+                <p class="hero-subtitle">Explore my projects and accomplishments</p>
+            </div>
+        </section>
+
+        <section class="filters">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Spoofer</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+        </section>
+
+        <section class="c-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="054AAC8C-11E5-4695-9C3B-BDBB15C1894D.png" 
+                         alt="Website preview" 
+                         class="project-img">
+                    <div class="project-placeholder">WEB</div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="project-website.html" class="project-link">View</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Modern Website</h3>
+                    <p class="project-description">Responsive web app with smooth animations</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="mobile">
+                <div class="project-image">
+                    <div class="project-placeholder">APP</div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="Spoofer.html" class="project-link">View</a>
+                            <a href="#" class="project-link">Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Spoofer</h3>
+                    <p class="project-description">Native app with intuitive interface</p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">ImGui</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <div class="project-placeholder">UI</div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="project-design.html" class="project-link">View</a>
+                            <a href="#" class="project-link">Figma</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Interface Design</h3>
+                    <p class="project-description">Complete and modern design system</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="other">
+                <div class="project-image">
+                    <div class="project-placeholder">BOT</div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="project-bot.html" class="project-link">View</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Discord Bot</h3>
+                    <p class="project-description">Multi-functional bot with advanced commands</p>
+                    <div class="project-tags">
+                        <span class="tag">Discord.js</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <div class="project-placeholder">3D</div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="project-3d.html" class="project-link">View</a>
+                            <a href="#" class="project-link">Model</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">3D Modeling</h3>
+                    <p class="project-description">Realistic and optimized 3D objects</p>
+                    <div class="project-tags">
+                        <span class="tag">Blender</span>
+                        <span class="tag">Three.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="./work.js"></script>
+</body>
+</html>
